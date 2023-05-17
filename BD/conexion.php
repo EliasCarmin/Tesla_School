@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "r_user";
+$database = "tesla_prueba";
 
 
 $conexion = mysqli_connect($host, $user, $password, $database);
