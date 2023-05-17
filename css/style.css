@@ -2220,17 +2220,29 @@ body {
 .header {
   color: #cae8d5;
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+.title_header{
+  font-size: 40px;
+  font-weight: 500;
+  color: darkblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-color: black;
+  padding: 15px;
+  padding-left: 70px;
 }
 .header__picture {
   margin: 15px;
   transform: translateX(35px);
+  margin: 0px 350px;
 }
 
 .content__login {
   display: flex;
   max-width: 100vw;
   padding: 35px;
+  padding-left: 350px;
 }
 
 .login {
@@ -2246,13 +2258,13 @@ body {
 }
 .login__form--label:nth-child(2n+1) {
   margin: 10px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 550;
 }
 .login__form--input {
   border: 1px solid white;
   border-radius: 30px;
-  padding: 0.2em 15px;
+  padding: 0.2em 30px;
   width: 25em;
   height: 3em;
   margin-left: 5px;
@@ -2261,7 +2273,7 @@ body {
   color: black;
 }
 .login__form--icon {
-  font-size: 21px;
+  font-size: 30px;
   display: flex;
 }
 .login__form--btn {
